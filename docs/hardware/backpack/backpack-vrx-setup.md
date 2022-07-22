@@ -36,6 +36,8 @@ You will need an FTDI dongle (USB to UART Bridge) to flash the VRx Backpack firm
 
 Any subsequent firmware updates can be done via WiFi.
 
+Remember to go to the TBS Fusion "Settings" menu and set "VTX Synch" to "Follow" for channel switching to work.
+
 ## Starting 0.2.0, you can Update via your Home WiFi
 
 With your Home Network SSID and Password set, when you activate the WiFi mode via the lua script (`WiFi Connectivity` -> `Enabled VRx WiFi`), the Backpack will try to connect to your Home WiFi Network. Once connected, you can access the Web Update page via http://elrs_vrx.local/ and upload your firmware there.
